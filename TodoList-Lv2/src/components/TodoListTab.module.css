@@ -1,0 +1,41 @@
+.tabList{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  max-width: 36rem;
+  margin-top: 1.25rem;
+
+}
+
+.tabList li {
+  width: 100%;
+}
+
+.tabList button {
+  display: block;
+  color: #765d30;
+  font-weight: bold;
+  text-align: center;
+  padding: 11px;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  background-color: #fff;
+  border-bottom: 2px solid #efefef;
+  width: 100%;
+  font-size: 0.85rem;
+}
+
+.tabList .active {
+  color: #333333;
+  border-bottom: 3px solid #9b860d;
+}
+
+@media only screen and (min-width: 38rem){
+  .tabList{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2.25rem;
+  }
+}

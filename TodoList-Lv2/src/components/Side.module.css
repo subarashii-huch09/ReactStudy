@@ -1,0 +1,18 @@
+.display{
+  display: none;
+}
+
+@media only screen and (min-width: 38rem){
+
+.logo{
+  margin: 0;
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+}
+
+  .display{
+  display: block;
+  width: 373px;
+  height: 373px;
+}
+}
